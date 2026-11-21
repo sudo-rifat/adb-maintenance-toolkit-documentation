@@ -112,7 +112,7 @@ Play Store-এর Termux পুরোনো। **F-Droid** থেকে Termux �
 
 **২) প্রয়োজনীয় Package Install করুন:**
 ```
-pkg update
+pkg update && pkg upgrade -y
 pkg install python android-tools
 ```
 মাঝে `Y` চাপতে বললে `Y` লিখে Enter দিন।
